@@ -14,7 +14,7 @@
 fn main() {
     let my_fav_fruits = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];
 
-    let mut my_iterable_fav_fruits = ???;   // TODO: Step 1
+    let mut my_iterable_fav_fruits = vec![0];   // TODO: Step 1
 
     assert_eq!(my_iterable_fav_fruits.next(), Some(&"banana"));
     assert_eq!(my_iterable_fav_fruits.next(), ???);     // TODO: Step 2
